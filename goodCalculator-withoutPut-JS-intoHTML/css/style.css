@@ -1,0 +1,70 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000ad;
+}
+
+.wrapper {
+    width: 355px;
+    height: 420px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: #66222261;
+}
+
+.screen {
+    width: 97%;
+    height: 50px;
+    background-color: #f1cece;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 18px
+}
+
+.buttons {
+
+    margin-top: 20px;
+}
+
+button {
+    width: 21%;
+    border-radius: 5px;
+    border-color: gray;
+    margin: 3px 4px;
+    background-color: darkslategray;
+    padding: 15px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.one {
+    background-color: rgb(4, 99, 40);
+    padding: 10px 15px;
+    border-color: gray;
+    margin: 8px 5px;
+    width: 37%;
+}
+
+.equal {
+    background-color: rgb(134, 13, 114);
+    padding: 10px 15px;
+    border-color: gray;
+    margin: 8px 5px;
+    width: 56%;
+}
+
+.btn-yellow {
+    background-color: rgb(107, 62, 7);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>try</title>
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <table class="calculate">
+
+        <tr>
+            <td colspan="4"><input type="text" class="display-box" id="result" title="input"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" title="1" onclick="display(1)"></td>
+            <td><input type="button" value="2" title="2" onclick="display(2)"></td>
+            <td><input type="button" value="3" title="3" onclick="display(3)"></td>
+            <td><input class="operators" type="button" value="/" title="operators" onclick="display('/')"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="4" title="4" onclick="display(4)"></td>
+            <td><input type="button" value="5" title="5" onclick="display(5)"></td>
+            <td><input type="button" value="6" title="6" onclick="display(6)"></td>
+            <td><input type="button" value="-" title="operators" onclick="display('-')"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="7" title="7" onclick="display(7)"></td>
+            <td><input type="button" value="8" title="8" onclick="display(8)"></td>
+            <td><input type="button" value="9" title="9" onclick="display(9)"></td>
+            <td><input type="button" value="+" title="operators" onclick="display('+')"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="." title="." onclick="display('.')"></td>
+            <td><input type="button" value="0" title="0" onclick="display(0)"></td>
+            <td><input type="button" value="&#8756;" title="&#8756;" onclick="display(0)"></td>
+            <td><input type="button" value="&#215;" title="operators" onclick="display('*')"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="C" title="C" onclick="clearScreen()"></td>
+            <td><input type="button" value="Del" title="Del" onclick="back()"></td>
+            <td colspan="2"><input type="button" id="btn" value="=" title="=" onclick="calculate()"></td>
+
+        </tr>
+
+
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="/js/tryyy.js"></script>
+</body>
+
+</html>
